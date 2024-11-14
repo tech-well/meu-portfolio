@@ -1,0 +1,24 @@
+@import url('/src/assets/css/color.css');
+@import url('/src/assets/css/fonts.css');
+
+header{
+    width: 100%;
+    height: 300px;
+    background-color: var(--color2);
+   
+
+}
+
+h1{
+    color: var(--color4);
+    font-family: var(--title2);
+    font-size: var(--tsize);
+
+
+}
+
+p{
+    color: var(--color5);
+    font-family: var(--paragrafo);
+    font-size: var(--psize);
+}
