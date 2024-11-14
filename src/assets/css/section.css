@@ -1,0 +1,48 @@
+@import url(/src/assets/css/fonts.css);
+@import url(/src/assets/css/color.css);
+
+.container__apresentação{
+    width: 100%;
+    background-color: var(--color5);
+}
+
+.bem__vindo{
+    display: flex;
+    width: var(--csize);
+    margin: auto;
+    background-color: var(--color5);
+    color: var(--color2);
+}
+
+.bem__vindo h2{
+    font-size: var(--tsize);
+    font-family: var(--title2);
+}
+
+.bem__vindo p{
+    font-size: var(--psize);
+    font-family: var(--paragrafo2);
+    text-align: justify;
+    text-wrap: wrap;
+}
+
+.imagem__dev img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit:contain;
+
+}
+
+.redes{
+    display: flex;
+   gap: 32px;
+}
+
+.redes a{
+    display: flex;
+    align-items: center;
+    font-size: var(--psize);
+    font-family: var(--paragrafo2);
+    color: var(--color2);
+}
