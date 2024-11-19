@@ -62,6 +62,7 @@
     color: var(--color2);
     font-size: var(--psize);
     font-family: var(--paragrafo2);
+    text-align: justify;
 }
 
 .div__sobre__mim h2{
