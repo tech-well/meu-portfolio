@@ -4,6 +4,7 @@
 .container__apresentação{
     width: 100%;
     background-color: var(--color2);
+    display: flex;
 }
 
 .bem__vindo{
@@ -12,6 +13,7 @@
     margin: auto;
     background-color: var(--color2);
     color: var(--color5);
+   
 }
 
 .bem__vindo h2{
@@ -20,10 +22,13 @@
 }
 
 .bem__vindo p{
+    width: 50rem;
     font-size: var(--psize);
     font-family: var(--paragrafo2);
     text-align: justify;
-    text-wrap: wrap;
+    
+   
+   
 }
 
 .imagem__dev img{
@@ -31,6 +36,7 @@
     height: 200px;
     border-radius: 100px;
     object-fit:contain;
+    
 
 }
 
@@ -63,6 +69,7 @@
     font-size: var(--psize);
     font-family: var(--paragrafo2);
     text-align: justify;
+    text-wrap: wrap;
 }
 
 .div__sobre__mim h2{
