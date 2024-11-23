@@ -10,10 +10,20 @@
 .bem__vindo{
     display: flex;
     width: var(--csize);
+    flex-wrap: wrap;
     margin: auto;
     background-color: var(--color2);
     color: var(--color5);
+    
    
+}
+
+.bem-vindo__text{
+    display: flex;
+    overflow-wrap: wra;
+    flex-direction: column;
+   
+    
 }
 
 .bem__vindo h2{
@@ -26,6 +36,7 @@
     font-size: var(--psize);
     font-family: var(--paragrafo2);
     text-align: justify;
+    overflow-wrap: wrap;
     
    
    
@@ -75,4 +86,40 @@
 .div__sobre__mim h2{
     font-size: var(--tsize);
     font-family: var(--title2);
+}
+
+.container__cards h2{
+   text-align: center;
+   font-size: var(--tsize);
+   font-family: var(--title2);
+}
+
+
+
+.container__cards__skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+   
+}
+
+
+.cards__skills{
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    gap: 8px;
+    padding-left: 16px;
+    flex-direction: column-reverse;
+    margin-top: 32px;
+    border: solid;
+    font-size: var(--psize);
+    font-family: var(--paragrafo2);
+   
+}
+
+.cards__skills img{
+    width: 1.4rem;
+    padding-bottom: 16px;
 }
